@@ -1,0 +1,23 @@
+const crypto = require('node:crypto');
+// process.env.UV_THREADPOOL_SIZE = 10;
+const start = performance.now();
+// crypto.pbkdf2Sync("secret",'salt',100000,64,'sha512');
+// console.log('1:', performance.now() - start);
+// crypto.pbkdf2Sync("secret",'salt',100000,64,'sha512');
+// console.log('2:', performance.now() - start);
+// crypto.pbkdf2Sync("secret",'salt',100000,64,'sha512');
+// console.log('3:', performance.now() - start);
+// crypto.pbkdf2("secret", "salt", 100000, 64, "sha512", () => console.log(performance.now() - start));
+// crypto.pbkdf2("secret", "salt", 100000, 64, "sha512", () => console.log(performance.now() - start));
+// crypto.pbkdf2("secret", "salt", 100000, 64, "sha512", () => console.log(performance.now() - start));
+// crypto.pbkdf2("secret", "salt", 100000, 64, "sha512", () => console.log(performance.now() - start));
+// crypto.pbkdf2("secret", "salt", 100000, 64, "sha512", () => console.log(performance.now() - start));
+
+fetch("https://dummyjson.com/products").then(() => console.log(performance.now() - start));
+fetch("https://dummyjson.com/products").then(() => console.log(performance.now() - start));
+fetch("https://dummyjson.com/products").then(() => console.log(performance.now() - start));
+fetch("https://dummyjson.com/products").then(() => console.log(performance.now() - start));
+fetch("https://dummyjson.com/products").then(() => console.log(performance.now() - start));
+fetch("https://dummyjson.com/products").then(() => console.log(performance.now() - start));
+fetch("https://dummyjson.com/products").then(() => console.log(performance.now() - start));
+fetch("https://dummyjson.com/products").then(() => console.log(performance.now() - start));
