@@ -1,0 +1,21 @@
+{
+  "name": "session5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.8.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0"
+  }
+}
